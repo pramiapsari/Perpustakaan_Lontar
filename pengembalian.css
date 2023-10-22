@@ -1,0 +1,10 @@
+.button-save {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: green;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }

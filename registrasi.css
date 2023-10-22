@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 1rem;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  
+  .form {
+    background: #fff;
+
+    padding: 1em;
+  }
+  
+  .form h3 {
+    margin-top: 0;
+  }
+  
+  form {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  .button-back {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background: red;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  
+  .button-save {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: green;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
